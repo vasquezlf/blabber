@@ -1,0 +1,33 @@
+{
+  "name": "blabber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasquezlf/blabber.git"
+  },
+  "keywords": [
+    "project",
+    "2",
+    "UCB",
+    "Extension",
+    "personal"
+  ],
+  "author": "Lorenzo Vasquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasquezlf/blabber/issues"
+  },
+  "homepage": "https://github.com/vasquezlf/blabber#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "handlebars": "^4.0.11",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.10"
+  }
+}

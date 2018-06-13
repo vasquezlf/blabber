@@ -1,0 +1,283 @@
+<!--  NAV -->
+<div class="ui stackable borderless menu">
+  <a class="item">
+    <h4>
+    <i class="hand lizard big icon"></i>
+        Blabber
+        </h4>
+  </a>
+  <div class="right menu">
+    <a class="item">
+      <i class="google large icon"></i>
+          Sign-in
+    </a>
+  </div>
+</div>
+
+
+<div class="ui grid container">
+  <div class="row">
+    <!-- MAIN -->
+    <main class="ui container twelve wide column">
+
+      <!-- Header/Banner -->
+      <div class="ui segment">
+        <h2 class="ui header centered">
+          Some Header
+        </h2>
+        <h5 class="ui sub header centered">Blah blah blah</h5>
+      </div>
+
+      <!-- Control Segment - Filter -->
+      <div class="ui two column middle aligned stackable grid ">
+        <!-- 1st Row - Queries -->
+        <div class="row">
+          <!-- Query Buttons - Trending | New | Following | My Posts | Groups -->
+          <div class="column">
+            <div class="ui basic buttons">
+              <div class="ui button">Trending</div>
+              <div class="ui button">New</div>
+              <div class="ui button">Following</div>
+              <div class="ui button">Posts</div>
+              <!-- <div class="ui button">Group Posts</div> -->
+            </div>
+          </div>
+
+          <!-- Search Database QUESTION: How to query for ANY keyword?-->
+          <div class="column right aligned" >
+            <div class="ui transparent icon input">
+              <input type="text" placeholder="Search users...">
+              <i class="search link icon"></i>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 2nd Row - Filters and Sort -->
+        <div class="row">
+          <!-- Filter by Location Buttons -->
+          <div class="column">
+            <div class="ui text menu">
+
+            <div class="header item">
+              Popular in:
+            </div>
+            <div class="ui compact selection dropdown">
+              <i class="dropdown icon"></i>
+              <div class="text">Country</div>
+              <div class="menu">
+                <div class="item">A</div>
+                <div class="item">B</div>
+                <div class="item">C</div>
+              </div>
+            </div>
+
+            <!-- IF US is selected country, show state dropdown. ELSE hide it -->
+            <div class="ui compact selection dropdown">
+              <i class="dropdown icon"></i>
+              <div class="text">State</div>
+              <div class="menu">
+                <div class="item">A</div>
+                <div class="item">B</div>
+                <div class="item">C</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+          <!-- Sort by Buttons -->
+          <div class="column right aligned">
+
+            <div class="ui text menu">
+              <div class="header item">
+                Sort by:
+              </div>
+              <div class="ui compact selection dropdown">
+                <i class="dropdown icon"></i>
+                <div class="text">Date</div>
+                <div class="menu">
+                  <div class="item">Descending</div>
+                  <div class="item">Ascending</div>
+                </div>
+              </div>
+
+              <div class="ui compact selection dropdown">
+                <i class="dropdown icon"></i>
+                <div class="text">Popularity</div>
+                <div class="menu">
+                  <div class="item">Descending</div>
+                  <div class="item">Ascending</div>
+                </div>
+              </div>
+
+              <div class="ui compact selection dropdown">
+                <i class="dropdown icon"></i>
+                <div class="text">Rating</div>
+                <div class="menu">
+                  <div class="item">Descending</div>
+                  <div class="item">Ascending</div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+      <!-- END Control Segment -->
+
+      <div class="ui divider"></div>
+
+      <!-- RESULT should be displayed here -->
+      <div class="ui segment">
+
+        <!--  **** TEST  ***** -->
+        <div class="ui unstackable items">
+          <div class="item">
+            <div class="image">
+              <img src="/images/wireframe/image.png">
+            </div>
+            <div class="content">
+              <a class="header">Header</a>
+              <div class="meta">
+                <span>Description</span>
+              </div>
+              <div class="description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="extra">
+                Additional Details
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="/images/wireframe/image.png">
+            </div>
+            <div class="content">
+              <a class="header">Header</a>
+              <div class="meta">
+                <span>Description</span>
+              </div>
+              <div class="description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="extra">
+                Additional Details
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ***** END TEST -->
+      </div>
+    </main>
+
+
+      <!-- ASIDE -->
+    <aside class="ui container four wide column">
+      <!-- ASIDE Submit Post, Bookmarks, My Groups -->
+      <div class="ui fluid vertical menu">
+        <a class="ui button item" id="submit-post-btn">
+          Submit Post
+        </a>
+        <a class="ui button item">
+          Bookmarks
+        </a>
+        <a class="ui button item">
+          My Groups
+        </a>
+      </div>
+
+      <!-- ASIDE Ad -->
+      <div class="ui segment">
+        <a href="http://google.com" class="ui medium fluid image">
+          <div class="ui header centered">
+            <h4>This Is An Ad</h4>
+          </div>
+          <img class="ui image rounded" src="https://loremflickr.com/320/240">
+          <div class="ui sub header centered">
+            <h5>Click now!</h5>
+          </div>
+        </a>
+      </div>
+      <div class="ui segment">
+        <div class="ui fluid basic button">
+          <i class="ui icon money bill outlined"></i>
+          Donate
+        </div>
+      </div>
+    </aside>
+  </div>  <!-- END ROW -->
+</div>  <!-- END Grid -->
+
+    <!-- FOOTER -->
+    <footer>
+
+    </footer>
+
+
+    <!--  MODALS  -->
+    <!--  MODAL 1 - Submit Post -->
+    <div class="ui modal longer">
+      <i class="close icon"></i>
+      <div class="header">
+        Create Post
+      </div>
+
+      <div class="ui top attached tabular menu">
+        <a class="active item">
+          Link
+        </a>
+        <a class="item">
+          Text
+        </a>
+        <div class="right menu">
+          <div class="item">
+            <div class="ui transparent icon input">
+              <input type="text" placeholder="Add tags...">
+              <i class="info link icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ui bottom attached segment active">
+        <div class="ui form">
+          <div class="field">
+            <label>Title:</label>
+            <input type="text">
+          </div>
+          <div class="field">
+            <label>Text:</label>
+            <textarea></textarea>
+          </div>
+          <div class="field">
+            <label>URL</label>
+            <input type="text">
+          </div>
+        </div>
+      </div>
+
+      <!--
+      <div class="image content">
+        <div class="image">
+          An image can appear on left or an icon
+        </div>
+        <div class="description">
+          A description can appear on the right
+        </div>
+      </div>
+       -->
+      <div class="actions">
+        <div class="ui button">Cancel</div>
+        <div class="ui button">Submit</div>
+      </div>
+    </div>
